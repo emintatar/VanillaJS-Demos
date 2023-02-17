@@ -1,0 +1,111 @@
+/* func */
+.drum {
+    border: 10px solid #404B69;
+    
+    font-family: 'Arvo', cursive;
+    font-weight: bolder;
+    color: blue;
+    text-shadow: 3px 0 #DBEDF3;
+    border-radius: 60px;
+    width: 200px;
+    height: 200px;
+    text-align: center;
+}
+
+.pressed {
+    box-shadow: 0 3px 4px 0 #DBEDF3;
+    opacity: 0.5;
+}
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body {
+
+}
+
+body {
+    background: rgb(238,174,202);
+    color: blue;
+
+    font-family: 'Arvo', cursive;
+    
+    background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 100%);
+
+    width: 100%;
+    height: 100%;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    text-align: center;
+}
+
+.container {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+h1 {
+    margin-top: 50px;
+    font-size: 50px;
+}
+
+.drums {
+    color: blue;
+    width: 100%;
+    height: 100%;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+
+    margin-top: 100px;
+}
+
+.w {
+    background-image: url(/images/crash.png);
+}
+
+.a {
+    background-image: url(/images/kick.png);
+}
+
+.s {
+    background-image: url(/images/snare.png);
+}
+
+.d {
+    background-image: url(/images/tom1.png);
+}
+
+.j {
+    background-image: url(/images/tom2.png);
+}
+
+.k {
+    background-image: url(/images/tom3.png);
+}
+
+.l {
+    background-image: url(/images/tom4.png);
+}
+
+button {
+    color: blue;
+    font-size: 80px;
+    font-weight: 400;
+}
+
+
+

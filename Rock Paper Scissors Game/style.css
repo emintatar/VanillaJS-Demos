@@ -1,0 +1,137 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Roboto", cursive;
+}
+
+body {
+  background: linear-gradient(90deg, #40be9f, #190421);
+  color: crimson;
+  width: 100%;
+  height: 100%;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+h2 {
+  margin: 50px 0;
+  font-size: 50px;
+}
+
+.table {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 30px;
+  padding: 5px;
+  border: 3px solid maroon;
+  color: white;
+}
+
+.playerTable,
+.computerTable {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 20px;
+}
+
+.table span {
+  margin-bottom: 15px;
+}
+
+.round {
+  height: 100px;
+  width: 100px;
+  border: 2px solid black;
+  line-height: 100px;
+  text-align: center;
+  font-size: 40px;
+  border-radius: 100px;
+  background-color: white;
+  color: black;
+}
+
+.choice {
+  width: 600px;
+  height: 60px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 50px 0;
+}
+
+img {
+  cursor: pointer;
+  height: 100px;
+  width: 100px;
+  transition: all 0.5s ease;
+}
+
+img:hover {
+  transform: scale(1.2);
+}
+
+.choices {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  width: 400px;
+  margin-top: 40px;
+  font-size: 30px;
+
+  text-align: center;
+}
+
+.playerChoice,
+.computerChoice {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.playerChoiceDiv {
+}
+
+.playerChoiceDiv span,
+.computerChoiceDiv span {
+  display: inline-block;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.message {
+  height: 50px;
+  width: 450px;
+  border: 2px solid maroon;
+  margin-top: 50px;
+  text-align: center;
+  line-height: 50px;
+  color: white;
+  font-size: 30px;
+}
+
+
+@media screen and (max-width: 768px) {
+  .container {
+
+  }
+
+  .choice {
+    width: 400px;
+  }
+
+  .choices{
+    width: 300px;
+  }
+
+}

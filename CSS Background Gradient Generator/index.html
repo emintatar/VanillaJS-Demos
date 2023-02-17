@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Generator App</title>
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="container">
+        <h1>Welcome to Gradiant Generator</h1>
+        <h2>Please use color boxes to see rgb values</h2>
+        <form class="colorPicker" action="">
+            <div class="inputs">
+                <input type="color" id="input1" value="#F232ba">
+                <input type="color" id="input2" value="#Fa2232" />
+            </div>
+
+            <a href="#" class="randomButton">Generate</a>
+        </form>
+        <h3 class="guide">
+            Copy the code below to your css file to apply gradiant
+        </h3>
+
+        <h3 id="message">
+            background: linear-gradient(to right, rgb(242, 50, 186), rgb(250, 34, 50));
+        </h3>
+    </div>
+
+
+    <!-- JS -->
+    <script src="app.js"></script>
+</body>
+
+</html>

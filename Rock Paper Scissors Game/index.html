@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>App</title>
+    
+    <!-- CSS -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="container">
+        
+        <h2>SCORE</h2>
+
+
+        <div class="table">
+
+            <div class="playerTable">
+                <span>Player</span>
+                <div class="round playerScore">0</div>
+            </div>
+
+            <p>VS</p>
+
+            <div class="computerTable">
+                <span>Computer</span>
+                <div class="round computerScore">0</div>
+            </div>
+
+        </div>
+
+
+        <div class="choice">
+            <img id="rock" src="/img/rock.png" title="ROCK" alt="">
+            <img id="paper" src="/img/paper.png" title="PAPER" alt="">
+            <img id="scissors" src="/img/scissors.png" title="SCISSORS" alt="">
+        </div>
+
+
+        <div class="choices">
+            <div class="playerChoiceDiv">
+                <span>Player</span>
+                <img id="playerChoice" src="/img/question.png" alt="">
+            </div>
+
+            <div class="computerChoiceDiv">
+                <span>Computer</span>
+                <img id="computerChoice" src="/img/question.png" alt="">
+            </div>
+        </div>
+
+
+        <div class="message">
+            Computer Wins
+        </div>
+    </div>
+
+    <!-- JS -->
+    <script src="app.js"></script>
+</body>
+</html>
